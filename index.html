@@ -2,39 +2,37 @@
 <html>
 
 <head>
-	<div class="center">	
+		
 	    <title>Brad's Porfolio</title>
 	    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</div>
 </head>
 
-<body class="body ">
+<body class="body">
+	<background class="background">
+		<header class="header center">
+			<div class="pagewidth">
+				<div align="center" class="name">
+						Brad Nielsen
+					</div>
 
-	<header class="header">
-		<div class="center">
-			<div align="center" class="name">
-					Brad Nielsen
-				</div>
+					<!--Navigation-->
+					<nav class="nav">
+					  <a class="navtext" href="About.html">About</a>  |  
+					  <a class="navtext" href="Portfolio.html">Portfolio</a>  |  
+					  <a class="navtext" href="Contact.html">Contact</a>
+					</nav>			
+			</div>	
 
-				<!--Navigation-->
-				<nav class="nav">
-				  <a href="About.html">About</a>  |  
-				  <a href="Portfolio.html">Portfolio</a>  |  
-				  <a href="Contact.html">Contact</a>
-				</nav>			
-		</div>
+		</header>
 
-			
-	</header>
-
-<!-- Main container -->
-		<div>	
+		<!-- Center content  container -->
+		<div class="pagewidth background">	
 		   	<!--This is the about me-->
 		    <div class="main clearfix"> 
 		        <h2 class="h2">About Me</h2>
 				<!--Line-->
-		        <HR WIDTH="90%" SIZE="3" Color="lightgrey" noshade> 
+		        <HR WIDTH="95%" SIZE="3" Color="lightgrey" noshade> 
 				<!--Profile Picture-->
 		        <img class="profileimg" src="assets/images/profilepic.jpg" height="200px" width="200px" alt="Your Name" id="bio-image">
 
@@ -49,6 +47,10 @@
 				<br> &#45; Murray N. Rothbard</p>
 
 				<p class="p"> This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. </p>
+				
+				<HR WIDTH="95%" SIZE="3" Color="lightgrey" margin="30px" noshade >
+
+				<p class="p"></p>
 		    </div>
 
 			<!--Sidebar with connect links-->
@@ -58,21 +60,25 @@
 				<HR WIDTH="90%" SIZE="3" Color="lightgrey" noshade> 
 
 				<div>
-					<img class="linkimg" src="assets/images/github.png">
-					<img class="linkimg"  src="assets/images/linkedin.png">
-					<img class="linkimg"  src="assets/images/stackoverflow.png">
+					<a rel="linkimg" type="text/css" href="https://github.com/bradleynielsen" target="blank"><img class="linkimg" src="assets/images/github.png"
+					</a>
+
+					<a rel="linkimg" type="text/css" href="https://www.linkedin.com/in/bradley-nielsen" target="blank"><img class="linkimg" src="assets/images/linkedin.png"
+					</a>
+
+					<a rel="linkimg" type="text/css" href="http://stackoverflow.com/users/5038623/bradley-nielsen" target="blank"><img class="linkimg" src="assets/images/stackoverflow.png"
+					</a>
 				</div>
-
 			</div>
-
 		</div>
 
+		<!-- Footer -->
 		<div>
 			<footer class="footer">
 				&#9400; Copyright 2016 Brad Nielsen
 			</footer>			
 		</div>
-
+	</background>
 </body>
 
 </html>
