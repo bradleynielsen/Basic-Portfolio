@@ -16,6 +16,8 @@
 	width: 1000px;
 	background-color: #999;
 	font-size: 20px;
+	/*margin: 0 auto;*/
+	
 
 }
 .box1 {
@@ -23,7 +25,7 @@
 	width: 50px;
 	color: #fff;
 	background-color: #062;
-	float: right;
+	margin: 0 auto;
 }
 
 .box2 {
@@ -33,6 +35,8 @@
 	background-color: #026;
 	float: none;
 	clear: all;
+	margin: 0 auto;
+
 }
 
 .box3 {
@@ -40,6 +44,8 @@
 	width: 50px;
 	color: #fff;
 	background-color: #012;
+	margin: 0 auto;
+
 }
 
 .box4 {
@@ -47,6 +53,8 @@
 	width: 50px;
 	color: #fff;
 	background-color: #012;
+	margin: 0 auto;
+
 }
 
 .footer {
