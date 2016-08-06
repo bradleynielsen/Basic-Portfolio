@@ -185,14 +185,14 @@ nav:visited {
 	background-color: #4aaaa5;
 	height: 15px;
 	position: relative;
-	bottom: 60px;
+	bottom: 11px;
 	text-align: center;
 	padding: 10px;
 	font-weight: bold;
 }
 
 .project {
-	height: 200px;
+	height: 215px;
 	width: 200px;
 	/*background-color: #555;*/
 	margin: 15px auto; 
@@ -210,6 +210,8 @@ nav:visited {
 	/*margin: 10px 2.5px;*/
 	margin: 2px;
 	/*left: 20px;*/
+	margin-bottom: 50px;
+
 }
 
 /*RIGHT*/
